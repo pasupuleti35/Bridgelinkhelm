@@ -3,7 +3,7 @@
   <nextMetaDataId>2</nextMetaDataId>
   <name>test</name>
   <description>This channel accepts data from &quot;HL7message service&quot;   and will convert the HL7 messages to XML.</description>
-  <revision>3</revision>
+  <revision>4</revision>
   <sourceConnector version="26.3.1">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>
@@ -172,7 +172,7 @@
   <destinationConnectors>
     <connector version="26.3.1">
       <metaDataId>1</metaDataId>
-      <name>Destination 1</name>
+      <name>target</name>
       <properties class="com.mirth.connect.connectors.js.JavaScriptDispatcherProperties" version="26.3.1">
         <pluginProperties/>
         <destinationConnectorProperties version="26.3.1">
@@ -428,7 +428,7 @@ return;</undeployScript>
     <metadata>
       <enabled>true</enabled>
       <lastModified>
-        <time>1781079780590</time>
+        <time>1781080777072</time>
         <timezone>Asia/Calcutta</timezone>
       </lastModified>
       <pruningSettings>
